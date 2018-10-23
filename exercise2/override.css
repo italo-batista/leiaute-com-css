@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #292C2F    
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: #292C2F;
+    border-bottom-color: #292C2F;
+}
+
+.btn-secondary {
+    background-color: #FF7877;
+}

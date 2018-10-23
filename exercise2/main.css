@@ -1,0 +1,33 @@
+.app-container {
+    color: #FFFFFF;
+    
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+
+.app-container-title { 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px) 
+{
+    .floating-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+}
+
+.floating-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
