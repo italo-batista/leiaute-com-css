@@ -1,19 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #292C2F    
+  font-family: "Montserrat", sans-serif;
+  background-color: #292c2f;
 }
 
 .btn {
-    border-radius: 0;
+  border: 0px solid transparent;
+  border-radius: 0%;
 }
 
 .btn-primary {
-    background-color: #292C2F;
-    border-bottom-color: #292C2F;
+  background-color: #292c2f;
+}
+
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:hover {
+  background-color: #9fa8b35e;
+  border-color: #9fa8b35e;
 }
 
 .btn-secondary {
-    background-color: #FF7877;
+  background-color: #ff7877;
 }

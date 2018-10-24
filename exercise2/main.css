@@ -1,33 +1,33 @@
 .app-container {
-    color: #FFFFFF;
-    
-    height: 100vh;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
+  color: #ffffff;
 
-
-
-.app-container-title { 
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-@media (max-width: 600px) 
-{
-    .floating-buttons {
-        display: flex;
-        justify-content: center;
-        align-items: end;
-    }
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .floating-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: end;
+  display: flex;
+  justify-content: center;
+  width: 17rem;
+  margin: 1.5rem 2rem;
+}
+@media (max-width: 600px) {
+  .floating-buttons {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin: 0 0;
+  }
 }
 
+.floating-btn {
+  height: 3rem;
+  font-size: 0.7rem;
+
+  /* btn-block */
+  display: block;
+  width: 100%;
+}
