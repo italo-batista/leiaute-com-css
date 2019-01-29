@@ -7,6 +7,7 @@ Material de apoio ao minicurso.
 * [Box model](https://jeffersonrpn.github.io/leiaute/box-model.html)
 * [Media queries](https://developer.mozilla.org/pt-BR/docs/Web/Guide/CSS/CSS_Media_queries)
 * [Flexbox](http://prettyminimal.com/flexbox/)
+* [Flexbox Ninja](https://flexbox.ninja/)
 * [Flexbox - guia animado](https://medium.com/@js_tut/flexbox-the-animated-tutorial-8075cbe4c1b2)
 * [Viewport units](https://labs.jensimmons.com/2017/01-010.html)
 * [Unidades de medida](https://www.w3schools.com/cssref/css_units.asp)
